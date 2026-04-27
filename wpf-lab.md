@@ -1,16 +1,3 @@
-Below is the **full WPF lab guideline from zero**, stage by stage. Each stage has:
-
-```text
-What to create
-What code to write
-What result should look like
-Why it works
-```
-
-Based on your PDF task. 
-
----
-
 # Stage 0 — Project structure
 
 Create WPF project:
@@ -1049,10 +1036,4 @@ ObservableCollection<Contact>
       v                  v
 ListBox              DataGrid
 visual view          editing table
-```
-
-That is the whole base lab. Everything depends on this one shared collection:
-
-```csharp
-ObservableCollection<Contact> Contacts
 ```
